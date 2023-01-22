@@ -3,7 +3,9 @@ import { guid } from '@/utils';
 import global from '@/common/global';
 import { ItemType, GraphType, GraphMode, EditorCommand } from '@/common/constants';
 import { GShape, GGroup, NodeModel, Behavior, GraphEvent } from '@/common/interfaces';
-import CommandManager from '@/common/CommandManager';
+// import CommandManager from '@/common/CommandManager';
+import CommandManager from '@/common/commandManager';
+
 import behaviorManager from '@/common/behaviorManager';
 
 interface DragAddNodeBehavior extends Behavior {

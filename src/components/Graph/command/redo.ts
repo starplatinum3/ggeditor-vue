@@ -1,5 +1,6 @@
 import { Command } from '@/common/interfaces';
-import CommandManager from '@/common/CommandManager';
+// import CommandManager from '@/common/CommandManager';
+import CommandManager from '@/common/commandManager';
 
 const redoCommand: Command = {
   name: 'redo',

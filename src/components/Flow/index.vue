@@ -19,7 +19,8 @@ import { FLOW_CONTAINER_ID, GraphType } from "@/common/constants";
 import behaviorManager from "@/common/behaviorManager";
 import GraphComponent from "@/components/Graph/index.vue";
 import { Graph, GraphOptions, FlowData, GraphEvent, GraphReactEventProps } from '@/common/interfaces';
-import CommandManager from '@/common/CommandManager';
+// import CommandManager from '@/common/CommandManager';
+import CommandManager from '@/common/commandManager';
 
 import "./behavior";
 interface FlowProps extends Partial<GraphReactEventProps> {
